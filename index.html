@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coding Quiz</title>
+
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+    </head>
+
+    <body>
+        <div class="scores"><a href="highscores.html">⭐HIGHSCORES⭐</a>
+        </div>
+        <div class="timer">Time: <span id="time">0</span></div>
+
+        <div class="main">
+            <div id="start-screen" class="start">
+                <h1>Coding Challenge!</h1>
+                <p>
+                    Answer the questions before the timer stops!
+
+                    But watch out! Every wrong answer will cut the time by 10 seconds!!
+                </p>
+                <button id="start">Click Here To Start Quiz!</button>
+            </div>
+
+            <div id="quiz" class="hide">
+                <h2 id="question"></h2>
+                <div id="choices" class="choices"></div>
+            </div>
+
+            <div id="end-screen" class="hide">
+                <h2>Completed!</h2>
+                <p>Score: <span id="final-score"></span></p>
+                <p>
+                    Enter your initials!: <input type="text" id="initials" />
+                    <button id="submit">Enter</button>
+                </p>
+            </div>
+        </div>    
+    </body>
+</html>
