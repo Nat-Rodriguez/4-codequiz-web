@@ -32,5 +32,3 @@ var quiz = [
     answer: 'both',
   },
 ];
-
-export default quiz;
