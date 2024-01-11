@@ -1,34 +1,31 @@
-// Questions, choices, and answers
-
-var quiz = [
+// list of all questions, choices, and answers
+var questions = [
   {
-    title: 'Which keyword is used to declare a variable that cannot be reassigned?',
-    choices: [ 'const', 'var', 'static'],
-    answer: 'const',
+    title: 'What does HTML stand for?',
+    choices: ['HyperText Markup Language', 'HyperTransfer Text Language', 'High-Level Text Management', 'Hyperlink and Text Markup Language'],
+    answer: 'Hyperlink and Text Markup Language',
   },
   {
-    title: 'What does the `===` operator do in JavaScript?',
-    choices: [ 'Assigns a value to a variable', 'Compares two values for equality', 'Checks if a value is less than or equal to another value'],
-    answer: 'Compares two values for equality',
+    title: 'Which of the following is used to declare a variable in JavaScript?',
+    choices: ['v', 'variable', 'var', 'dec'],
+    answer: 'var',
   },
   {
-    title: 'Which function is used to print content to the console in JavaScript?',
-    choices: [ 'console.log()', 'print()', 'display()'],
-    answer: 'console.log()',
+    title: 'What is the purpose of the console.log() function in JavaScript?',
+    choices: [
+      'Display a message box', 'Print content to the console', 'Show an alert','Create a new variable',
+    ],
+    answer: 'Print content to the console',
   },
   {
-    title: 'Which symbol is used for comments in HTML?',
-    choices: [ '<!-- -->', '//', '#'],
-    answer: '<!-- -->',
+    title: 'How do you create a comment in HTML?',
+    choices: ['// This is a comment', '// This is a comment', '/* This is a comment */', ' # This is a comment'],
+    answer: '<!-- This is a comment -->',
   },
   {
-    title: 'What keyword is used to declare a function in JavaScript?',
-    choices: [ 'define', 'post', 'function'],
-    answer: 'function',
-  },
-  {
-    title: 'Which of the following methods is used to access HTML elements using Javascript?',
-    choices: [ 'getElementbyId()', 'getElementbyClassName()', 'both'],
-    answer: 'both',
+    title:
+      '',
+    choices: ['<script src="script.js"></script>', '<js src="script.js"></js>', '<link rel="js" href="script.js">', '<javascript src="script.js"></javascript>'],
+    answer: '<script src="script.js"></script>',
   },
 ];

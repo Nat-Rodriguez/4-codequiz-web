@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Tektur&display=swap');
+
+.title {
+  font-family: Bungee Spice;
+}
+
+.body {
+  font-family: Tektur;
+  font-size: 120%;
+  background-color: rgb(9, 17, 73);
+}
+
+a {
+  color: #3d9aeb;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+button {
+  display: inline-block;
+  margin: 5px;
+  font-size: 100%;
+  background-color: #4f6dcf;
+  color: white;
+}
+
+input[type="text"] {
+  font-size: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  text-align: center;
+}
+
+.feedback {
+  font-size: 200%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: rgb(156, 61, 61);
+}
+
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
